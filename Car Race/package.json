@@ -1,0 +1,15 @@
+{
+  "name": "carreracoches",
+  "version": "1.0.0",
+  "description": "Carrera de Coches",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aurora del Rio",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.4.1"
+  }
+}

@@ -1,0 +1,27 @@
+html,
+body {
+  padding-top: 2%;
+  padding-left: 4%;
+}
+h1 {
+  text-align: center;
+  color: rebeccapurple;
+  font-family: "Copperplate";
+}
+
+img {
+  display: inline-block;
+  width: 120;
+  height: 120px;
+  padding: 10px;
+}
+.cobrar {
+  display: none;
+}
+.game {
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+.luck {
+  border: 5px solid #555;
+}

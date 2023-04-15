@@ -1,0 +1,83 @@
+@font-face {
+  src: url(../../fonts/Eunomia-Bold.otf);
+  font-family: Eunomia;
+}
+@font-face {
+  src: url(../../fonts/Eunomia-Regular.otf);
+  font-family: Eunomia_regular;
+}
+@import url("http://fonts.cdnfonts.com/css/geometri-outine");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: url(./img/2068213.png);
+  background-size: 1700px 1000px;
+
+  background-repeat: no-repeat;
+}
+h1 {
+  margin-left: 39%;
+  color: #c00;
+  font-family: "Geometri Outine", sans-serif;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+label {
+  margin-left: 47.5%;
+  font-family: "Eunomia";
+}
+button {
+  margin-top: 10px;
+  margin-left: 47.5%;
+  font-family: "Eunomia";
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+img {
+  margin-top: -100px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.position {
+  color: #37244e;
+  margin-left: 80%;
+}
+/* tabla */
+#ranking {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 23%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  overflow: hidden;
+  border-radius: 10px;
+  -pie-background: linear-gradient(#ece9d8, #e5ecd8);
+  box-shadow: #666 0px 2px 3px;
+  behavior: url(Include/PIE.htc);
+}
+
+#ranking td,
+#ranking th {
+  border: 3px solid rgb(238, 233, 233);
+  padding: 8px;
+}
+
+#ranking tr:nth-child(even) {
+  background-color: #87bad1;
+}
+
+td.hidden {
+  display: none;
+}

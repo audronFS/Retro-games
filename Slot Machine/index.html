@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Try Luck Machine</h1>
+    <div class="formulario">
+      <h2>Insert coin number:</h2>
+      <input
+        type="number"
+        min="0"
+        step="1"
+        oninput="validity.valid||(value='')"
+        id="inputMonedas"
+        value="0"
+      />
+      <button id="introducir" onclick="introMonedas();">Insert</button>
+
+      <p>Your total score</p>
+      <h2 id="monedas">0</h2>
+      <button class="cobrar" id="cobrar" onclick="cobrarSuma();">
+        Collect Money
+      </button>
+    </div>
+    <div class="game">
+      <img src="./img/pingu.png" class="luck" id="luck1" alt="pingu" />
+      <img src="./img/pingu.png" class="luck" id="luck2" alt="pingu" />
+      <img src="./img/pingu.png" class="luck" id="luck3" alt="pingu" />
+      <img
+        src="./img/palancaUP.png"
+        id="palanca"
+        onclick="activarPalanca();"
+        alt="pingu"
+      />
+      <img
+        src="./img/palancaDOWN.png"
+        id="down"
+        style="display: none"
+        alt="pingu"
+      />
+    </div>
+    <div class="historial">
+      <h3>Records</h3>
+      <ul id="historial"></ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
